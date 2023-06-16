@@ -12,6 +12,8 @@
 ## LINGUAGENS UTILIZADAS: `HMTL`
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="HTML" width=300>
 <hr>
+
+## `CSS`
 <img src="https://icones.pro/wp-content/uploads/2022/08/css3.png" alt="CSS" width=300>
 
 ## OBJETIVO DESTE REPOSITÓRIO 
