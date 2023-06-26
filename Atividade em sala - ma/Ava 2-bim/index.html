@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Meu currículo</title>
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li class="estrela"><img src="assets/estrela.png" alt="estrela" width="50px" style="padding: 10px;"></li>
+                <li class="logo">Meu Currículo</li>
+                <div class="itens">
+                    <li><a href="#dados-pessoais">Dados Pessoais</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#experiencia">Experência</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </div>
+            </ul>
+        </nav>
+        <div class="container">
+            <img id="eu" src="assets/perfilm.jpeg" alt="eu">
+            <h1 id="titulo-nome">Marcela Silva Franco</h1>
+            <h2 id="titulo-idade">17 anos</h2>
+            <h3 id="titulo-curso">Estudante do curso técnico de Informática</h3>
+        </div>
+        <section id="dados-pessoais">
+            <h2>Dados Pessoais</h2>
+            <p>Nome Completo: Marcela Silva Franco</p>
+            <p>Idade: 17 anos</p>
+            <p>Endereço: Limoeiro de Anadia, zona rural</p>
+        </section>
+        <section id="formacao">
+            <h2>Dados Acadêmicos</h2>
+            <p>Curso: Técnico em Informática</p>
+            <p>Ano: 3º</p>
+            <p>Instituição: Instituto Federal de Alagoas</p>
+        </section>
+        <section id="experiencia">
+            <h2>Experiência</h2>
+            <p>Cargo: Não possui.</p>
+        </section>
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <img id="livros" src="assets/livro.png" alt="livro">
+            <img id="netflix" src="assets/netflix.png" alt="netflix">
+            <img id="viagem" src="assets/viagem.png" alt="viagem">
+            <img id="compras" src="assets/sacolas-de-compras.png" alt="compras"> 
+            <p id="texto-livros">Ler</p>
+            <p id="texto-netflix">Assistir</p>
+            <p id="texto-compras">Comprar</p>
+            <p id="texto-viagem">Viajar</p>
+        </section>
+        <section id="contato">
+            <h2 style="color: red;">Formulário de Contato</h2>
+            <form action="index.html" method="post">
+                <p id="nome-form">Nome</p>
+                <input type="text" name="Nome" id="Nome" required=true>
+                <p id="mensagem-form">Mensagem</p>
+                <input type="text" name="Mensagem" id="Mensagem" required="true">
+                <input type="submit" value="ENVIAR" id="btn-enviar" required=true>
+            </form>
+        </section>
+    </body>
+</html>
