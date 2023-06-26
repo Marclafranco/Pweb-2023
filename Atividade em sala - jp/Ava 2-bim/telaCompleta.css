@@ -77,21 +77,21 @@ nav ul div.itens a:hover{
 .container #titulo-nome{
     position: relative;
     top: -120px;
-    left: 27.5%;
+    left: 30%;
     margin-bottom: 5px;
 }
 
 .container #titulo-idade{
     position: relative;
     top: -115px;
-    left: 27.5%;
+    left: 30%;
     margin-bottom: 5px;
 }
 
 .container #titulo-curso{
     position: relative;
     top: -110px;
-    left: 27.5%;
+    left: 30%;
 }
 
 #dados-pessoais{
